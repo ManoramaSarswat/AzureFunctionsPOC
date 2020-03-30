@@ -1,0 +1,13 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.5",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "orchestrationTrigger",
+      "name": "context"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/PatientsFunction.dll",
+  "entryPoint": "PatientsFunction.PatientClass.Run"
+}
